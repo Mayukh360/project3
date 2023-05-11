@@ -8,7 +8,7 @@ import axios from "axios";
 export default function MedicineForm() {
   const formRef = useRef();
   const [responseData, setResponseData] = useState([]); // State for the response data
-  const [selectedSize, setSelectedSize] = useState("");
+  // const [selectedSize, setSelectedSize] = useState("");
 
   const submitHandler = (event) => {
     event.preventDefault();
