@@ -35,6 +35,7 @@
   .actions {
     display: flex;
     flex-direction: column;
+    margin-right: 2rem;
   }
   
   @media (min-width: 768px) {

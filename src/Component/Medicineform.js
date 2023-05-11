@@ -120,7 +120,7 @@ export default function MedicineForm() {
       <ul>
         {responseData.map((item) => (
           <li key={item._id}>
-            Price: {item.medicineName} - Description: {item.description} -
+            Price: {item.shoeName} - Description: {item.description} -
             Price: {item.price} - Amount: {item.amount}{" "}
             <button onClick={() => handleSizeButtonClick("Large", item)}>
               Large-{item.large}
